@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#logo h1{
+    font-size:2rem;
+    color:white;
+    font-family: 'Shizuru', cursive;
+    margin-top: auto;
+}
+#logo{
+    padding: 3px 3px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+}
+#navbar ul li{
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin: 0px 5px;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    padding: 3px 12px;
+    font-size:1.5 rem;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+#home{
+    background: url('bghome.jpg');
+    height: 10%;
+}
+.bg2{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.bg2 img{
+    margin-left: 50px;
+    width: 90%;
+    height: 80%;
+    margin-top: 27px;
+    z-index: -2;
+}
+
+.topright{
+    position: absolute;
+    top: 129px;
+    right: 179px;
+    font-size: 3rem;
+}
+.down{
+    position: absolute;
+    top: 182px;
+    right: 205px;
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+}
+.down1{
+    position: absolute;
+    top: 204px;
+    right: 184px;
+    font-size: 0.5rem;
+    color: rgb(245, 239, 239);
+}
+
+  #box {
+    display: flex;
+    flex-direction:row;
+    width: 120%;
+    padding: 3px 3px;
+    margin-top: -30px;
+    margin-left: 30px;
+    
+}
+.box1{
+    width:25%;
+    height: 30%;
+}
+.box2{
+    width:25%;
+    height: 30%;
+}
+.box3{
+    width:25%;
+    height: 30%;
+}
+
+#bottom img{
+    position: relative;
+    width: 91%;
+    height: 40%;
+    margin-top: -77px;
+}
+#bottom1 img{
+    position: absolute;
+    margin-top: -173px;
+    width: 9%;
+    height: 12%;
+    margin-left: 84px;
+}
+#bottom1 p{
+    position: absolute;
+    margin-top: -70px;
+    width: 17%;
+    height: 12%;
+    margin-left: 44px;
+    font-size: 0.5rem;
+}
+#bottom1 h2{
+    position: absolute;
+    margin-top: -89px;
+    width: 17%;
+    height: 12%;
+    margin-left: 90px;
+    font-size: 0.9rem;
+}
+#box{
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
+ 
